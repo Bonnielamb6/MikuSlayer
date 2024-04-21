@@ -3,6 +3,11 @@ package levelCreator;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.util.Map;
+
+import graphics.Textures;
+import tools.textureReader;
 
 public class LvlCreatorFrame extends JFrame {
     private static LvlCreator canvas;
@@ -11,15 +16,40 @@ public class LvlCreatorFrame extends JFrame {
     JMenuBar menuBar = new JMenuBar();
 
     public LvlCreatorFrame() {
-        setSize(WIDTH, HEIGHT);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setLayout(null);
         initComponents();
+        initObjectsBar();
         setVisible(true);
     }
 
     public void initComponents() {
-        canvas = new LvlCreator(500, 15);
+        mainPanel = new javax.swing.JPanel();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(1200, 620));
+        setName("Level Creator");
+        setResizable(false);
+        getContentPane().setLayout(null);
+
+        mainPanel.setLayout(null);
+
+        texturesPanel = new javax.swing.JPanel();
+        JScrollPane texturesPanelScroll = new JScrollPane();
+
+        texturesPanelScroll.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
+        texturesPanelScroll.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+        texturesPanelScroll.getHorizontalScrollBar().setUnitIncrement(20);
+
+        texturesPanel.setLayout(new BoxLayout(texturesPanel, BoxLayout.Y_AXIS));
+
+        texturesPanelScroll.setViewportView(texturesPanel);
+        mainPanel.add(texturesPanelScroll);
+        texturesPanelScroll.setBounds(10,40,550,180);
+        getContentPane().add(mainPanel);
+        mainPanel.setBounds(1000, 0, 200, 600);
+
+
+        canvas = new LvlCreator(15, 500);
+        canvas.setSize(800, 400);
         add(canvas);
         setJMenuBar(menuBar);
         //ADD of the menus
@@ -60,9 +90,25 @@ public class LvlCreatorFrame extends JFrame {
 
     }
 
+    private void initObjectsBar() {
+        for (Map.Entry<String, BufferedImage> element : Textures.getTexturesMap().entrySet()) {
+            String key = element.getKey();
+            BufferedImage imgElemento = element.getValue();
+
+            // Se crea el elemento para la barra y se asigna su interfaz
+            ElementPanel panelElementoTemp = new ElementPanel(imgElemento, key, canvas);
+            texturesPanel.add(panelElementoTemp);
+        }
+
+    }
+
+
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             LvlCreatorFrame frame = new LvlCreatorFrame();
         });
     }
+
+    private javax.swing.JPanel texturesPanel;
+    private javax.swing.JPanel mainPanel;
 }

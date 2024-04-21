@@ -17,7 +17,7 @@ import javax.swing.SwingUtilities;
 public class LvlCreator extends JPanel implements InterfaceLvlCreator {
     private int ROWS;
     private int COLUMNS;
-    private int PIXEL_SIZE = 25;
+    private int PIXEL_SIZE = 16;
     private int WIDTH = 750;
     private int HEIGHT = 600;
     private Color currentColor;
@@ -28,7 +28,7 @@ public class LvlCreator extends JPanel implements InterfaceLvlCreator {
     private GraphicsLibrary backgroundGraphics;
     private GraphicsLibrary objectsGraphics;
     private Boolean isMoving;
-    private Boolean isErasing;
+    private Boolean isErasing = false;
     private float velocity;
     private float zoom;
     private Point lastPosition;
@@ -42,9 +42,12 @@ public class LvlCreator extends JPanel implements InterfaceLvlCreator {
             setBackground(Color.white);
             ROWS = r;
             COLUMNS = c;
+            System.out.println(getWidth());
+            System.out.println(getHeight());
 
             backgroundGraphics = new GraphicsLibrary(getWidth(), getHeight());
             objectsGraphics = new GraphicsLibrary(getWidth(), getHeight());
+
             velocity = 1f;
             zoom = 1f;
             isMoving = false;

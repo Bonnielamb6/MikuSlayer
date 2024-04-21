@@ -22,30 +22,35 @@ public class Textures {
         texturesMap = new LinkedHashMap<>();
         mikuTexturesMap = new HashMap<>();
         enemyTexturesMap = new HashMap<>();
-        matrixReader = new textureReader(2);
+        matrixReader = new textureReader(1);
 
         getFloorTextures();
-        getPlantsTextures();
-        getTreesTextures();
+        getBackgroundTextures();
         getMikuTextures();
         getEnemytextures();
         getBossTextures();
     }
 
     private static void getFloorTextures() {
+        texturesMap.put("Floor_Block",matrixReader.drawObject("imgs/blocks/floorBlock"));
 
     }
 
-    private static void getPlantsTextures() {
-
+    private static void getBackgroundTextures() {
+        texturesMap.put("Plant",matrixReader.drawObject("imgs/background/plant"));
+        texturesMap.put("Tree",matrixReader.drawObject("imgs/background/tree"));
+        texturesMap.put("Cloud",matrixReader.drawObject("imgs/background/cloud"));
+        texturesMap.put("Moon",matrixReader.drawObject("imgs/background/moon"));
     }
 
-    private static void getTreesTextures() {
 
-    }
 
     private static void getMikuTextures() {
-
+        mikuTexturesMap.put("miku",matrixReader.drawObject("imgs/miku/mikuFront"));
+        mikuTexturesMap.put("mikuLeft",matrixReader.drawObject("imgs/miku/mikuLeft"));
+        mikuTexturesMap.put("mikuLeftWalking", matrixReader.drawObject("imgs/miku/mikuLeftWalking"));
+        mikuTexturesMap.put("mikuRight", matrixReader.drawObject("imgs/miku/mikuRight"));
+        mikuTexturesMap.put("mikuRightWalking",matrixReader.drawObject("imgs/miku/mikuRightWalking"));
     }
 
     private static void getEnemytextures() {
