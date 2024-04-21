@@ -6,14 +6,14 @@ import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 
-public class graphicsLibrary extends Canvas {
+public class GraphicsLibrary extends Canvas {
     private final int WIDTH;
     private final int HEIGHT;
     private BufferedImage buffer;
     private int moveX = 0;
     private int moveY = 0;
 
-    public graphicsLibrary(int w, int h) {
+    public GraphicsLibrary(int w, int h) {
         WIDTH = w;
         HEIGHT = h;
         setSize(WIDTH, HEIGHT);

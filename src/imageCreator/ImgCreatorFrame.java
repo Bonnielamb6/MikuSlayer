@@ -7,16 +7,16 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class imgCreatorFrame extends JFrame {
-    private int WIDTH = 790;
-    private int HEIGHT = 830;
-    private static imgCreator canvas;
-    private static imgCreatorFrame frame;
+public class ImgCreatorFrame extends JFrame {
+    private final int WIDTH = 790;
+    private final int HEIGHT = 830;
+    private static ImgCreator canvas;
+    private static ImgCreatorFrame frame;
 
     JMenuBar menuBar = new JMenuBar();
     JColorChooser colorChooser = new JColorChooser();
 
-    public imgCreatorFrame(int rows, int columns) {
+    public ImgCreatorFrame(int rows, int columns) {
         setSize(WIDTH, HEIGHT);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
@@ -25,7 +25,7 @@ public class imgCreatorFrame extends JFrame {
     }
 
     public void initComponents() {
-        canvas = new imgCreator(32, 32);
+        canvas = new ImgCreator(32, 32);
         add(canvas);
         setJMenuBar(menuBar);
         //ADD of the menus
@@ -75,7 +75,7 @@ public class imgCreatorFrame extends JFrame {
     }
 
     private static void resetCanvas(int tempRows,int tempColumns) {
-        canvas = new imgCreator(tempRows, tempColumns);
+        canvas = new ImgCreator(tempRows, tempColumns);
         frame.getContentPane().removeAll();
         frame.getContentPane().add(canvas);
         frame.repaint();
@@ -84,7 +84,7 @@ public class imgCreatorFrame extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            frame = new imgCreatorFrame(32, 32);
+            frame = new ImgCreatorFrame(32, 32);
 
         });
     }

@@ -14,7 +14,7 @@ import java.io.IOException;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
-public class imgCreator extends JPanel {
+public class ImgCreator extends JPanel {
 
     private int WIDTH;
     private int HEIGHT;
@@ -29,7 +29,7 @@ public class imgCreator extends JPanel {
     private Boolean middleClick = false;
     private static BufferedImage buffer;
 
-    public imgCreator(int r, int c) {
+    public ImgCreator(int r, int c) {
         SwingUtilities.invokeLater(() -> {
             pixelSize(r, c);
             ROWS = r;
@@ -50,9 +50,9 @@ public class imgCreator extends JPanel {
         COLUMNS = columns;
         currentColor = Color.BLACK;
 
-        int maxFilasColumnas = Math.max(rows, columns);
+        int maxRowsColumns = Math.max(rows, columns);
         int maxWidthHeight = Math.max(HEIGHT, WIDTH);
-        PIXEL_SIZE = maxWidthHeight / maxFilasColumnas;
+        PIXEL_SIZE = maxWidthHeight / maxRowsColumns;
 
         HEIGHT = PIXEL_SIZE * ROWS;
         WIDTH = PIXEL_SIZE * COLUMNS;
