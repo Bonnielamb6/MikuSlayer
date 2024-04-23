@@ -71,7 +71,7 @@ public class textureReader {
             for (int j = 0; j < pixels[0].length; j++) {
                 int x = j * tempPixelSize;
                 int y = i * tempPixelSize;
-                graphics.fillRectangle(x, y, x + tempPixelSize, y + tempPixelSize, pixels[i][j]);
+                graphics.fillRectangle(x, y, x + tempPixelSize, y + tempPixelSize, pixels[j][i]);
             }
         }
 

@@ -71,14 +71,14 @@ public class LvlCreatorFrame extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String fileName = JOptionPane.showInputDialog("File name");
-                //canvas.saveFile(fileName);
+                canvas.saveLevel(fileName);
             }
         });
         loadSprite.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String fileName = JOptionPane.showInputDialog("File name");
-                //canvas.loadFile(fileName);
+                canvas.loadLevel(fileName);
             }
         });
 

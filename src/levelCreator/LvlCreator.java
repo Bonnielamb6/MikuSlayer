@@ -7,6 +7,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.MouseWheelListener;
 import java.awt.image.BufferedImage;
+import java.io.*;
 
 import graphics.GraphicsLibrary;
 import graphics.Textures;
@@ -227,6 +228,76 @@ public class LvlCreator extends JPanel implements InterfaceLvlCreator {
         lastPosition.setLocation(0, 0);
         zoom = 1f;
         repaint();
+    }
+
+    public void saveLevel(String fileName) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
+            writer.write("Level coordinates: " + fileName + ".txt\n\n\n");
+            writer.write("Dimensions: \n" + objects.length + "," + objects[0].length + "\n\n\n");
+            StringBuilder content = new StringBuilder();
+            for (ObjectSquare[] objectsArray : objects) {
+                for (ObjectSquare tempObject : objectsArray) {
+                    if (tempObject.getObjectImage() != null) {
+                        int xObject = tempObject.getX();
+                        int yObject = tempObject.getY();
+                        content.append("Coordinates: \n").append(xObject).append(",").append(yObject).append("\n");
+                        content.append("Object: \n").append(tempObject.getObjectName()).append("\n\n\n");
+                    }
+                }
+            }
+            writer.write(content.toString());
+            System.out.println("File saved");
+        } catch (IOException e) {
+            System.out.println("There was a problem saving your file" + e);
+        }
+    }
+
+    public void loadLevel(String fileName) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
+            String currentLine;
+            while ((currentLine = reader.readLine()) != null) {
+                if (currentLine.equals("Dimensions: ")) {
+                    System.out.println("Dimensiones");
+                    currentLine = reader.readLine();
+                    String[] size = currentLine.split(",");
+                    int tempRows = Integer.parseInt(size[0]);
+                    int tempColumns = Integer.parseInt(size[1]);
+
+                    objects = new ObjectSquare[tempRows][tempColumns];
+                    for (int i = 0; i < tempRows; i++) {
+                        for (int j = 0; j < tempColumns; j++) {
+                            objects[i][j] = new ObjectSquare();
+                        }
+                    }
+                }
+                if (currentLine.equals("Coordinates: ")) {
+                    System.out.println("Coordenadas");
+                    currentLine = reader.readLine();
+                    String[] position = currentLine.split(",");
+                    int xObject = Integer.parseInt(position[0]);
+                    int yObject = Integer.parseInt(position[1]);
+
+                    currentLine = reader.readLine();
+                    currentLine = reader.readLine();
+
+                    System.out.println(currentLine);
+                    String tempObjectName = currentLine;
+                    ObjectSquare tempObject = new ObjectSquare();
+                    tempObject.setX(xObject);
+                    tempObject.setY(yObject);
+                    tempObject.setObjectName(tempObjectName);
+                    tempObject.setObjectImage(Textures.getTexture(tempObjectName));
+                    //TODO Maybe have to swap these
+                    objects[xObject][yObject] = tempObject;
+
+                }
+            }
+            System.out.println("File loaded");
+            repaint();
+        } catch (IOException e) {
+            System.out.println("There was a problem loading your file");
+        }
+
     }
 
     public void setVelocity(float v) {
