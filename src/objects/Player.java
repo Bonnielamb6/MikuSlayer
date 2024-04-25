@@ -169,9 +169,6 @@ public class Player extends GameObject {
         return jumping;
     }
 
-    public void setJumping(boolean jumping) {
-        this.jumping = jumping;
-    }
 
     private void showBounds(GraphicsLibrary g) {
         g.drawRectangle(getBounds(), Color.red);

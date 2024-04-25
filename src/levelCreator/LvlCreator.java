@@ -257,7 +257,7 @@ public class LvlCreator extends JPanel implements InterfaceLvlCreator {
             String currentLine;
             while ((currentLine = reader.readLine()) != null) {
                 if (currentLine.equals("Dimensions: ")) {
-                    System.out.println("Dimensiones");
+                    System.out.println("Dimensions");
                     currentLine = reader.readLine();
                     String[] size = currentLine.split(",");
                     int tempRows = Integer.parseInt(size[0]);
@@ -271,7 +271,7 @@ public class LvlCreator extends JPanel implements InterfaceLvlCreator {
                     }
                 }
                 if (currentLine.equals("Coordinates: ")) {
-                    System.out.println("Coordenadas");
+                    System.out.println("Coordinates");
                     currentLine = reader.readLine();
                     String[] position = currentLine.split(",");
                     int xObject = Integer.parseInt(position[0]);
@@ -298,6 +298,57 @@ public class LvlCreator extends JPanel implements InterfaceLvlCreator {
             System.out.println("There was a problem loading your file");
         }
 
+    }
+
+    public static ObjectSquare[][] loadLevelMatrix(
+            String fileName) {
+
+        ObjectSquare[][] objects = null;
+        String currentLine;
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
+            while ((currentLine = reader.readLine()) != null) {
+                if (currentLine.equals("Coordinates: ")) {
+                    currentLine = reader.readLine();
+                    String[] size = currentLine.split(",");
+
+                    int xObject = Integer.parseInt(size[0]);
+                    int yObject = Integer.parseInt(size[1]);
+
+                    currentLine = reader.readLine(); // Leer siguiente linea (Elemento:)
+                    String name = reader.readLine();
+
+                    // Crear la object temporal y agregarla a la Matriz
+                    ObjectSquare object = new ObjectSquare();
+                    object.setX(xObject);
+                    object.setY(yObject);
+
+                    object.setObjectName(name);
+                    object.setObjectImage(Textures.getTexture(name));
+                    objects[xObject][yObject] = object;
+                }
+
+                // Se ejecuta 1 vez para inicializar las dimensiones de la matriz
+                if (currentLine.equals("Dimensions: ")) {
+                    currentLine = reader.readLine();
+                    String[] size = currentLine.split(",");
+
+                    int xObject = Integer.parseInt(size[0]);
+                    int yObject = Integer.parseInt(size[1]);
+
+                    objects = new ObjectSquare[xObject][yObject];
+                    for (int i = 0; i < objects.length; i++) {
+                        for (int j = 0; j < objects[0].length; j++) {
+                            objects[i][j] = new ObjectSquare();
+                        }
+                    }
+                }
+            }
+        } catch (IOException e) {
+            System.err.println("There was a problem loading your file: " + e.getMessage());
+        }
+
+        return objects;
     }
 
     public void setVelocity(float v) {
