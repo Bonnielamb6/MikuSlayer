@@ -21,9 +21,9 @@ public class Player extends GameObject {
     public Player(float x, float y, Handler handler) {
         super(x, y, ObjectID.Player, 32, 32, 0);
         this.handler = handler;
-        walkingAnimation = new Animation(5,
+        walkingAnimation = new Animation(15,
                 Textures.getMikuTextures("mikuRight"),
-                Textures.getMikuTextures("mikuWalkingRight")
+                Textures.getMikuTextures("mikuRightWalking")
         );
     }
 
@@ -42,7 +42,7 @@ public class Player extends GameObject {
         } else if (getVelX() < 0) {
             walkingAnimation.drawReversedSprite(g, (int) getPosX(), (int) getPosY());
         } else {
-            g.drawImage(Textures.getMikuTextures("mikuFront"), (int) getPosX(), (int) getPosY());
+            g.drawImage(Textures.getMikuTextures("miku"), (int) getPosX(), (int) getPosY());
         }
     }
 
@@ -72,6 +72,8 @@ public class Player extends GameObject {
                 case Block:
                 case Floor:
                     solidColision(temp);
+                    break;
+                default:
                     break;
             }
         }

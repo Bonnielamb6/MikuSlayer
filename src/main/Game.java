@@ -49,7 +49,7 @@ public class Game extends Canvas implements Runnable {
         handler = new Handler();
         window = new Window(SCREEN_WIDHT, SCREEN_HEIGHT, "MIKU SLAYER");
         camera = new Camera(0, 32);
-        player = new Player(32, 32, handler);
+        player = new Player(32, 200, handler);
         background = new Background(0, 0, SCREEN_WIDHT, SCREEN_HEIGHT, 32, camera);
 
         keyInput = new KeyInput(player);

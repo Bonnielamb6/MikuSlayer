@@ -22,7 +22,7 @@ public class Textures {
         texturesMap = new LinkedHashMap<>();
         mikuTexturesMap = new HashMap<>();
         enemyTexturesMap = new HashMap<>();
-        matrixReader = new textureReader(1);
+        matrixReader = new textureReader(2);//1 for the editor, 2 for the game
 
         getFloorTextures();
         getBackgroundTextures();
