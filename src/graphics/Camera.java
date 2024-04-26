@@ -14,6 +14,23 @@ public class Camera {
     }
 
     public void tick(GameObject player) {
-        posX = (int) (-player.getPosX()+Game.getSCREEN_WIDHT());
+        posX = (int) (-player.getPosX()+Game.getSCREEN_WIDHT()/2+16);
+
+    }
+
+    public int getPosX() {
+        return posX;
+    }
+
+    public void setPosX(int posX) {
+        this.posX = posX;
+    }
+
+    public int getPosY() {
+        return posY;
+    }
+
+    public void setPosY(int posY) {
+        this.posY = posY;
     }
 }

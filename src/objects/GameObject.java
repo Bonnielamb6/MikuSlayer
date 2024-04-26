@@ -13,7 +13,7 @@ public abstract class GameObject {
     private float velX;
     private float velY;
     private boolean hit;
-    private int movedX;
+    protected int movedX;
 
     public GameObject(float posX, float posY, ObjectID id, float width, float height, int movedX) {
         this.posX = posX;

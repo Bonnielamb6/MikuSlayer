@@ -50,7 +50,7 @@ public class ElementPanel extends JPanel {
         lblElementName.setBackground(Color.BLACK);
         lblElementName.setForeground(Color.BLACK);
         lblElementName.setHorizontalAlignment(SwingConstants.CENTER);
-        lblElementName.setText("Floor block");
+        lblElementName.setText("SolidBlock block");
         add(lblElementName);
         lblElementName.setBounds(0, 0, 160, 17);
     }

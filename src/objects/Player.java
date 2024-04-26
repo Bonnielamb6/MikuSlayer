@@ -3,6 +3,7 @@ package objects;
 import graphics.Animation;
 import graphics.GraphicsLibrary;
 import graphics.Textures;
+import org.w3c.dom.Text;
 import tools.Handler;
 
 import java.awt.*;
@@ -20,6 +21,10 @@ public class Player extends GameObject {
     public Player(float x, float y, Handler handler) {
         super(x, y, ObjectID.Player, 32, 32, 0);
         this.handler = handler;
+        walkingAnimation = new Animation(5,
+                Textures.getMikuTextures("mikuRight"),
+                Textures.getMikuTextures("mikuWalkingRight")
+        );
     }
 
     @Override

@@ -32,7 +32,7 @@ public class Handler {
         int renderLeft = (int) (player.getPosX() - Game.getMAX_RENDER());
         int renderRight = (int) (player.getPosX() + Game.getMAX_RENDER());
         for (GameObject obj : gameObjects) {
-            if (obj.getPosX() < renderLeft && obj.getPosX() > renderRight) {
+            if (obj.getPosX() > renderLeft && obj.getPosX() < renderRight) {
                 obj.render(g);
             }
         }
