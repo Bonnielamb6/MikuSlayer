@@ -44,6 +44,7 @@ public class Player extends GameObject {
         } else {
             g.drawImage(Textures.getMikuTextures("miku"), (int) getPosX(), (int) getPosY());
         }
+        showBounds(g);
     }
 
     public void movement() {
@@ -63,7 +64,7 @@ public class Player extends GameObject {
             setVelX(0);
         }
         setPosX(getVelX() + getPosX());
-
+        setPosY(getVelY() + getPosY());
     }
 
     public void colisions() {
@@ -81,7 +82,7 @@ public class Player extends GameObject {
 
     public void solidColision(GameObject tempObject) {
         if (getBounds().intersects(tempObject.getBounds())) {
-            setPosY(tempObject.getPosY());
+            setPosY(tempObject.getPosY() - 64);
             setVelY(0);
             jumping = false;
         }
@@ -90,6 +91,9 @@ public class Player extends GameObject {
         }
         if (getBoundsLeft().intersects(tempObject.getBounds())) {
             setPosX(tempObject.getPosX() + getWidth());
+        }
+        if (getBoundsTop().intersects(tempObject.getBounds())) {
+            setVelY(1);
         }
         if (!(getVelY() >= 0)) {
             jumping = true;
@@ -101,25 +105,33 @@ public class Player extends GameObject {
         return new Rectangle(
                 (int) (getPosX() + getWidth() / 2 - getWidth() / 4),
                 (int) (getPosY() + getHeight() / 2),
-                (int) (getWidth() / 2),
-                (int) (getHeight() / 2));
+                (int) (getWidth()),
+                (int) (getHeight()) + 16);
 
+    }
+
+    public Rectangle getBoundsTop() {
+        return new Rectangle(
+                (int) (getPosX() + getWidth() / 2 - getWidth() / 4),
+                (int) (getPosY() + 10),
+                (int) (getWidth()),
+                16);
     }
 
     public Rectangle getBoundsRight() {
         return new Rectangle(
-                (int) (getPosX() + getWidth() - 8),
-                (int) (getPosY() + 4),
-                8,
-                (int) (getHeight() - 8));
+                (int) (getPosX() + getWidth() + 8),
+                (int) (getPosY() + 20),
+                1,
+                (int) (getHeight()));
     }
 
     public Rectangle getBoundsLeft() {
         return new Rectangle(
-                (int) (getPosX()),
-                (int) (getPosY() + 4),
-                8,
-                (int) (getHeight() - 8));
+                (int) (getPosX() + 8),
+                (int) (getPosY() + 20),
+                1,
+                (int) (getHeight()));
     }
 
     @Override
@@ -178,7 +190,11 @@ public class Player extends GameObject {
 
 
     private void showBounds(GraphicsLibrary g) {
-        g.drawRectangle(getBounds(), Color.red);
+        g.drawRectangle(getBounds(), Color.green);
+        g.drawRectangle(getBoundsLeft(), Color.red);
+        g.drawRectangle(getBoundsRight(), Color.yellow);
+        g.drawRectangle(getBoundsTop(), Color.BLACK);
+
 
     }
 }
