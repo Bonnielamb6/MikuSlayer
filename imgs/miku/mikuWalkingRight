@@ -1,4 +1,4 @@
-Color and coordinates: mikuRightWalking.txt
+Color and coordinates: mikuWalkingRight.txt
 
 Dimensions: 
 32,32
@@ -1269,12 +1269,12 @@ Color:
 Coordinate: 
 7,28
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 7,29
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 7,30
@@ -1424,22 +1424,22 @@ Color:
 Coordinate: 
 8,27
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 8,28
 Color: 
-102,102,102,255
+0,0,0,0
 
 Coordinate: 
 8,29
 Color: 
-153,153,153,255
+0,0,0,0
 
 Coordinate: 
 8,30
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 8,31
@@ -1589,7 +1589,7 @@ Color:
 Coordinate: 
 9,28
 Color: 
-153,153,153,255
+0,0,0,255
 
 Coordinate: 
 9,29
@@ -1599,7 +1599,7 @@ Color:
 Coordinate: 
 9,30
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 9,31
@@ -1739,27 +1739,27 @@ Color:
 Coordinate: 
 10,26
 Color: 
-0,0,0,255
+163,221,211,255
 
 Coordinate: 
 10,27
 Color: 
-153,153,153,255
+65,196,182,255
 
 Coordinate: 
 10,28
 Color: 
-0,0,0,255
+76,76,76,255
 
 Coordinate: 
 10,29
 Color: 
-0,0,0,0
+125,137,135,255
 
 Coordinate: 
 10,30
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 10,31
@@ -1904,17 +1904,17 @@ Color:
 Coordinate: 
 11,27
 Color: 
-0,0,0,255
+125,137,135,255
 
 Coordinate: 
 11,28
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 11,29
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 11,30
@@ -2064,7 +2064,7 @@ Color:
 Coordinate: 
 12,27
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 12,28

@@ -54,7 +54,7 @@ public class textureReader {
                 }
             }
         } catch (IOException e) {
-            System.out.println("There was a problem loading your file");
+            System.out.println("There was a problem loading your file" + e.getMessage());
         }
 
     }

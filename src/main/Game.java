@@ -34,9 +34,9 @@ public class Game extends Canvas implements Runnable {
     private Handler handler;
     private Window window;
     private Camera camera;
-    private static final int SCREEN_WIDHT = 600;
+    private static final int SCREEN_WIDHT = 800;
     private static final int SCREEN_HEIGHT = 600;
-    private static final int MAX_RENDER = 600;
+    private static final int MAX_RENDER = 500;
     private KeyInput keyInput;
     private Player player;
     private GraphicsLibrary graphics = new GraphicsLibrary(SCREEN_WIDHT, SCREEN_HEIGHT);
@@ -180,6 +180,7 @@ public class Game extends Canvas implements Runnable {
     public synchronized void playerTick() {
         player.tick();
         camera.tick(player);
+
     }
 
     public synchronized void render() {

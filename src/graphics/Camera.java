@@ -4,7 +4,7 @@ import objects.GameObject;
 import main.Game;
 
 public class Camera {
-    private int posX;
+    private static int posX;
     private int posY;
     private int lastX;
 
@@ -18,7 +18,7 @@ public class Camera {
 
     }
 
-    public int getPosX() {
+    public static int getPosX() {
         return posX;
     }
 

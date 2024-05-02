@@ -1,9 +1,11 @@
 package tools;
 
+import objects.Bullet;
 import objects.Player;
 
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.util.LinkedList;
 
 public class KeyInput extends KeyAdapter {
 
@@ -85,6 +87,7 @@ public class KeyInput extends KeyAdapter {
                 break;
             case 69://E
                 //HIT, IF MY TIME LETS ME
+                player.shoot();
                 break;
             case 17://CTRL
                 player.setRunning(1);

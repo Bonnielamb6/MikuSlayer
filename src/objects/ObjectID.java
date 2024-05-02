@@ -6,5 +6,6 @@ public enum ObjectID {
     Boss,
     Block,
     Background,
-    Floor
+    Floor,
+    Bullet
 }

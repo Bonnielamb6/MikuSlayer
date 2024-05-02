@@ -1,4 +1,4 @@
-Color and coordinates: mikuRightWalking.txt
+Color and coordinates: enemyWalking.txt
 
 Dimensions: 
 32,32
@@ -659,22 +659,22 @@ Color:
 Coordinate: 
 4,2
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 4,3
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 4,4
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 4,5
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 4,6
@@ -714,27 +714,27 @@ Color:
 Coordinate: 
 4,13
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 4,14
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 4,15
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 4,16
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 4,17
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 4,18
@@ -814,37 +814,37 @@ Color:
 Coordinate: 
 5,1
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 5,2
 Color: 
-0,0,0,0
+102,102,102,255
 
 Coordinate: 
 5,3
 Color: 
-0,0,0,0
+102,102,102,255
 
 Coordinate: 
 5,4
 Color: 
-0,0,0,0
+102,102,102,255
 
 Coordinate: 
 5,5
 Color: 
-0,0,0,0
+102,102,102,255
 
 Coordinate: 
 5,6
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 5,7
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 5,8
@@ -864,12 +864,12 @@ Color:
 Coordinate: 
 5,11
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 5,12
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 5,13
@@ -879,22 +879,22 @@ Color:
 Coordinate: 
 5,14
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 5,15
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 5,16
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 5,17
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 5,18
@@ -969,67 +969,67 @@ Color:
 Coordinate: 
 6,0
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 6,1
 Color: 
-0,0,0,0
+102,102,102,255
 
 Coordinate: 
 6,2
 Color: 
-0,0,0,0
+102,102,102,255
 
 Coordinate: 
 6,3
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 6,4
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 6,5
 Color: 
-0,0,0,0
+102,102,102,255
 
 Coordinate: 
 6,6
 Color: 
-0,0,0,0
+102,102,102,255
 
 Coordinate: 
 6,7
 Color: 
-0,0,0,0
+102,102,102,255
 
 Coordinate: 
 6,8
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 6,9
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 6,10
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 6,11
 Color: 
-0,0,0,255
+204,204,204,255
 
 Coordinate: 
 6,12
 Color: 
-0,0,0,255
+204,204,204,255
 
 Coordinate: 
 6,13
@@ -1039,52 +1039,52 @@ Color:
 Coordinate: 
 6,14
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 6,15
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 6,16
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 6,17
 Color: 
-65,196,182,255
+0,0,0,0
 
 Coordinate: 
 6,18
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 6,19
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 6,20
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 6,21
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 6,22
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 6,23
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 6,24
@@ -1129,52 +1129,52 @@ Color:
 Coordinate: 
 7,0
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 7,1
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 7,2
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 7,3
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 7,4
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 7,5
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 7,6
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 7,7
 Color: 
-0,0,0,0
+102,102,102,255
 
 Coordinate: 
 7,8
 Color: 
-0,0,0,0
+102,102,102,255
 
 Coordinate: 
 7,9
 Color: 
-0,0,0,255
+102,102,102,255
 
 Coordinate: 
 7,10
@@ -1184,62 +1184,62 @@ Color:
 Coordinate: 
 7,11
 Color: 
-0,0,0,255
+204,204,204,255
 
 Coordinate: 
 7,12
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 7,13
 Color: 
-65,196,182,255
+204,204,204,255
 
 Coordinate: 
 7,14
 Color: 
-65,196,182,255
+204,204,204,255
 
 Coordinate: 
 7,15
 Color: 
-65,196,182,255
+204,204,204,255
 
 Coordinate: 
 7,16
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 7,17
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 7,18
 Color: 
-65,196,182,255
+0,0,0,0
 
 Coordinate: 
 7,19
 Color: 
-65,196,182,255
+0,0,0,0
 
 Coordinate: 
 7,20
 Color: 
-65,196,182,255
+0,0,0,0
 
 Coordinate: 
 7,21
 Color: 
-65,196,182,255
+0,0,0,0
 
 Coordinate: 
 7,22
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 7,23
@@ -1259,7 +1259,7 @@ Color:
 Coordinate: 
 7,26
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 7,27
@@ -1269,12 +1269,12 @@ Color:
 Coordinate: 
 7,28
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 7,29
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 7,30
@@ -1289,137 +1289,137 @@ Color:
 Coordinate: 
 8,0
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 8,1
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 8,2
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 8,3
 Color: 
-0,0,0,0
+255,0,0,255
 
 Coordinate: 
 8,4
 Color: 
-0,0,0,0
+255,0,0,255
 
 Coordinate: 
 8,5
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 8,6
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 8,7
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 8,8
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 8,9
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 8,10
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 8,11
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 8,12
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 8,13
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 8,14
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 8,15
 Color: 
-65,196,182,255
+79,57,57,255
 
 Coordinate: 
 8,16
 Color: 
-65,196,182,255
+204,204,204,255
 
 Coordinate: 
 8,17
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 8,18
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 8,19
 Color: 
-65,196,182,255
+0,0,0,0
 
 Coordinate: 
 8,20
 Color: 
-65,196,182,255
+0,0,0,0
 
 Coordinate: 
 8,21
 Color: 
-163,221,211,255
+0,0,0,255
 
 Coordinate: 
 8,22
 Color: 
-163,221,211,255
+218,234,156,255
 
 Coordinate: 
 8,23
 Color: 
-163,221,211,255
+218,234,156,255
 
 Coordinate: 
 8,24
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 8,25
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 8,26
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 8,27
@@ -1429,17 +1429,17 @@ Color:
 Coordinate: 
 8,28
 Color: 
-102,102,102,255
+0,0,0,255
 
 Coordinate: 
 8,29
 Color: 
-153,153,153,255
+0,0,0,255
 
 Coordinate: 
 8,30
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 8,31
@@ -1449,102 +1449,102 @@ Color:
 Coordinate: 
 9,0
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 9,1
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 9,2
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 9,3
 Color: 
-0,0,0,0
+255,0,0,255
 
 Coordinate: 
 9,4
 Color: 
-0,0,0,0
+255,0,0,255
 
 Coordinate: 
 9,5
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 9,6
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 9,7
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 9,8
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 9,9
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 9,10
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 9,11
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 9,12
 Color: 
-163,221,211,255
+79,57,57,255
 
 Coordinate: 
 9,13
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 9,14
 Color: 
-163,221,211,255
+218,234,156,255
 
 Coordinate: 
 9,15
 Color: 
-65,196,182,255
+79,57,57,255
 
 Coordinate: 
 9,16
 Color: 
-163,221,211,255
+204,204,204,255
 
 Coordinate: 
 9,17
 Color: 
-163,221,211,255
+204,204,204,255
 
 Coordinate: 
 9,18
 Color: 
-163,221,211,255
+0,0,0,255
 
 Coordinate: 
 9,19
 Color: 
-163,221,211,255
+0,0,0,255
 
 Coordinate: 
 9,20
@@ -1554,47 +1554,47 @@ Color:
 Coordinate: 
 9,21
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 9,22
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 9,23
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 9,24
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 9,25
 Color: 
-163,221,211,255
+218,234,156,255
 
 Coordinate: 
 9,26
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 9,27
 Color: 
-0,0,0,255
+234,246,189,255
 
 Coordinate: 
 9,28
 Color: 
-153,153,153,255
+234,246,189,255
 
 Coordinate: 
 9,29
 Color: 
-0,0,0,255
+234,246,189,255
 
 Coordinate: 
 9,30
@@ -1609,127 +1609,127 @@ Color:
 Coordinate: 
 10,0
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 10,1
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 10,2
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 10,3
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 10,4
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 10,5
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 10,6
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 10,7
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 10,8
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 10,9
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 10,10
 Color: 
-163,221,211,255
+0,0,0,255
 
 Coordinate: 
 10,11
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 10,12
 Color: 
-0,0,0,255
+79,57,57,255
 
 Coordinate: 
 10,13
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 10,14
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 10,15
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 10,16
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 10,17
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 10,18
 Color: 
-0,0,0,255
+204,204,204,255
 
 Coordinate: 
 10,19
 Color: 
-0,0,0,255
+204,204,204,255
 
 Coordinate: 
 10,20
 Color: 
-0,0,0,0
+204,204,204,255
 
 Coordinate: 
 10,21
 Color: 
-0,0,0,0
+234,246,189,255
 
 Coordinate: 
 10,22
 Color: 
-0,0,0,255
+234,246,189,255
 
 Coordinate: 
 10,23
 Color: 
-0,0,0,255
+234,246,189,255
 
 Coordinate: 
 10,24
 Color: 
-70,194,183,255
+234,246,189,255
 
 Coordinate: 
 10,25
@@ -1744,22 +1744,22 @@ Color:
 Coordinate: 
 10,27
 Color: 
-153,153,153,255
+0,0,0,255
 
 Coordinate: 
 10,28
 Color: 
-0,0,0,255
+224,230,202,255
 
 Coordinate: 
 10,29
 Color: 
-0,0,0,0
+224,230,202,255
 
 Coordinate: 
 10,30
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 10,31
@@ -1769,122 +1769,122 @@ Color:
 Coordinate: 
 11,0
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 11,1
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 11,2
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 11,3
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 11,4
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 11,5
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 11,6
 Color: 
-255,57,92,255
+218,234,156,255
 
 Coordinate: 
 11,7
 Color: 
-255,57,92,255
+218,234,156,255
 
 Coordinate: 
 11,8
 Color: 
-255,57,92,255
+218,234,156,255
 
 Coordinate: 
 11,9
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 11,10
 Color: 
-163,221,211,255
+0,0,0,255
 
 Coordinate: 
 11,11
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 11,12
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 11,13
 Color: 
-244,221,121,255
+218,234,156,255
 
 Coordinate: 
 11,14
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 11,15
 Color: 
-32,160,141,255
+218,234,156,255
 
 Coordinate: 
 11,16
 Color: 
-32,160,141,255
+218,234,156,255
 
 Coordinate: 
 11,17
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 11,18
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 11,19
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 11,20
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 11,21
 Color: 
-0,0,0,255
+234,246,189,255
 
 Coordinate: 
 11,22
 Color: 
-241,187,149,255
+234,246,189,255
 
 Coordinate: 
 11,23
 Color: 
-255,231,193,255
+234,246,189,255
 
 Coordinate: 
 11,24
@@ -1894,27 +1894,27 @@ Color:
 Coordinate: 
 11,25
 Color: 
-70,194,183,255
+0,0,0,0
 
 Coordinate: 
 11,26
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 11,27
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 11,28
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 11,29
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 11,30
@@ -1929,52 +1929,52 @@ Color:
 Coordinate: 
 12,0
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 12,1
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 12,2
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 12,3
 Color: 
-0,0,0,0
+255,0,0,255
 
 Coordinate: 
 12,4
 Color: 
-0,0,0,0
+255,0,0,255
 
 Coordinate: 
 12,5
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 12,6
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 12,7
 Color: 
-255,57,92,255
+218,234,156,255
 
 Coordinate: 
 12,8
 Color: 
-255,57,92,255
+218,234,156,255
 
 Coordinate: 
 12,9
 Color: 
-255,57,92,255
+0,0,0,255
 
 Coordinate: 
 12,10
@@ -1984,82 +1984,82 @@ Color:
 Coordinate: 
 12,11
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 12,12
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 12,13
 Color: 
-244,221,121,255
+218,234,156,255
 
 Coordinate: 
 12,14
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 12,15
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 12,16
 Color: 
-0,0,0,255
+79,57,57,255
 
 Coordinate: 
 12,17
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 12,18
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 12,19
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 12,20
 Color: 
-132,132,132,255
+218,234,156,255
 
 Coordinate: 
 12,21
 Color: 
-132,132,132,255
+234,246,189,255
 
 Coordinate: 
 12,22
 Color: 
-132,132,132,255
+234,246,189,255
 
 Coordinate: 
 12,23
 Color: 
-0,0,0,255
+234,246,189,255
 
 Coordinate: 
 12,24
 Color: 
-206,211,215,255
+0,0,0,255
 
 Coordinate: 
 12,25
 Color: 
-76,76,76,255
+0,0,0,0
 
 Coordinate: 
 12,26
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 12,27
@@ -2089,52 +2089,52 @@ Color:
 Coordinate: 
 13,0
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 13,1
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 13,2
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 13,3
 Color: 
-0,0,0,0
+255,0,0,255
 
 Coordinate: 
 13,4
 Color: 
-0,0,0,0
+255,0,0,255
 
 Coordinate: 
 13,5
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 13,6
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 13,7
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 13,8
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 13,9
 Color: 
-0,0,0,255
+225,228,212,255
 
 Coordinate: 
 13,10
@@ -2144,77 +2144,77 @@ Color:
 Coordinate: 
 13,11
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 13,12
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 13,13
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 13,14
 Color: 
-0,0,0,255
+79,57,57,255
 
 Coordinate: 
 13,15
 Color: 
-241,187,149,255
+218,234,156,255
 
 Coordinate: 
 13,16
 Color: 
-241,187,149,255
+218,234,156,255
 
 Coordinate: 
 13,17
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 13,18
 Color: 
-241,187,149,255
+0,0,0,255
 
 Coordinate: 
 13,19
 Color: 
-255,231,193,255
+0,0,0,255
 
 Coordinate: 
 13,20
 Color: 
-132,132,132,255
+218,234,156,255
 
 Coordinate: 
 13,21
 Color: 
-132,132,132,255
+218,234,156,255
 
 Coordinate: 
 13,22
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 13,23
 Color: 
-206,211,215,255
+234,246,189,255
 
 Coordinate: 
 13,24
 Color: 
-206,211,215,255
+234,246,189,255
 
 Coordinate: 
 13,25
 Color: 
-206,211,215,255
+0,0,0,255
 
 Coordinate: 
 13,26
@@ -2224,12 +2224,12 @@ Color:
 Coordinate: 
 13,27
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 13,28
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 13,29
@@ -2249,87 +2249,87 @@ Color:
 Coordinate: 
 14,0
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 14,1
 Color: 
-0,0,0,0
+225,228,212,255
 
 Coordinate: 
 14,2
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 14,3
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 14,4
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 14,5
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 14,6
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 14,7
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 14,8
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 14,9
 Color: 
-65,196,182,255
+225,228,212,255
 
 Coordinate: 
 14,10
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 14,11
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 14,12
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 14,13
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 14,14
 Color: 
-0,0,0,255
+79,57,57,255
 
 Coordinate: 
 14,15
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 14,16
 Color: 
-241,187,149,255
+218,234,156,255
 
 Coordinate: 
 14,17
@@ -2339,12 +2339,12 @@ Color:
 Coordinate: 
 14,18
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 14,19
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 14,20
@@ -2354,47 +2354,47 @@ Color:
 Coordinate: 
 14,21
 Color: 
-0,0,0,255
+218,234,156,255
 
 Coordinate: 
 14,22
 Color: 
-206,211,215,255
+218,234,156,255
 
 Coordinate: 
 14,23
 Color: 
-206,211,215,255
+218,234,156,255
 
 Coordinate: 
 14,24
 Color: 
-206,211,215,255
+224,230,202,255
 
 Coordinate: 
 14,25
 Color: 
-70,194,183,255
+224,230,202,255
 
 Coordinate: 
 14,26
 Color: 
-0,0,0,255
+224,230,202,255
 
 Coordinate: 
 14,27
 Color: 
-0,0,0,255
+234,246,189,255
 
 Coordinate: 
 14,28
 Color: 
-0,0,0,255
+234,246,189,255
 
 Coordinate: 
 14,29
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 14,30
@@ -2409,82 +2409,82 @@ Color:
 Coordinate: 
 15,0
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 15,1
 Color: 
-0,0,0,0
+225,228,212,255
 
 Coordinate: 
 15,2
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 15,3
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 15,4
 Color: 
-0,0,0,0
+218,234,156,255
 
 Coordinate: 
 15,5
 Color: 
-0,0,0,0
+225,228,212,255
 
 Coordinate: 
 15,6
 Color: 
-0,0,0,255
+225,228,212,255
 
 Coordinate: 
 15,7
 Color: 
-65,196,182,255
+225,228,212,255
 
 Coordinate: 
 15,8
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 15,9
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 15,10
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 15,11
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 15,12
 Color: 
-65,196,182,255
+218,234,156,255
 
 Coordinate: 
 15,13
 Color: 
-163,221,211,255
+0,0,0,255
 
 Coordinate: 
 15,14
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 15,15
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 15,16
@@ -2494,7 +2494,7 @@ Color:
 Coordinate: 
 15,17
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 15,18
@@ -2504,12 +2504,12 @@ Color:
 Coordinate: 
 15,19
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 15,20
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 15,21
@@ -2524,32 +2524,32 @@ Color:
 Coordinate: 
 15,23
 Color: 
-206,211,215,255
+0,0,0,255
 
 Coordinate: 
 15,24
 Color: 
-76,76,76,255
+0,0,0,255
 
 Coordinate: 
 15,25
 Color: 
-76,76,76,255
+0,0,0,255
 
 Coordinate: 
 15,26
 Color: 
-0,0,0,255
+224,230,202,255
 
 Coordinate: 
 15,27
 Color: 
-102,102,102,255
+224,230,202,255
 
 Coordinate: 
 15,28
 Color: 
-102,102,102,255
+234,246,189,255
 
 Coordinate: 
 15,29
@@ -2574,27 +2574,27 @@ Color:
 Coordinate: 
 16,1
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 16,2
 Color: 
-0,0,0,0
+225,228,212,255
 
 Coordinate: 
 16,3
 Color: 
-0,0,0,0
+225,228,212,255
 
 Coordinate: 
 16,4
 Color: 
-0,0,0,0
+225,228,212,255
 
 Coordinate: 
 16,5
 Color: 
-0,0,0,0
+225,228,212,255
 
 Coordinate: 
 16,6
@@ -2604,22 +2604,22 @@ Color:
 Coordinate: 
 16,7
 Color: 
-65,196,182,255
+0,0,0,255
 
 Coordinate: 
 16,8
 Color: 
-65,196,182,255
+0,0,0,0
 
 Coordinate: 
 16,9
 Color: 
-163,221,211,255
+0,0,0,0
 
 Coordinate: 
 16,10
 Color: 
-163,221,211,255
+0,0,0,0
 
 Coordinate: 
 16,11
@@ -2634,27 +2634,27 @@ Color:
 Coordinate: 
 16,13
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 16,14
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 16,15
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 16,16
 Color: 
-163,221,211,255
+0,0,0,0
 
 Coordinate: 
 16,17
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 16,18
@@ -2664,37 +2664,37 @@ Color:
 Coordinate: 
 16,19
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 16,20
 Color: 
-255,231,193,255
+0,0,0,0
 
 Coordinate: 
 16,21
 Color: 
-255,231,193,255
+0,0,0,0
 
 Coordinate: 
 16,22
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 16,23
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 16,24
 Color: 
-76,76,76,255
+0,0,0,0
 
 Coordinate: 
 16,25
 Color: 
-70,194,183,255
+0,0,0,0
 
 Coordinate: 
 16,26
@@ -2704,12 +2704,12 @@ Color:
 Coordinate: 
 16,27
 Color: 
-153,153,153,255
+224,230,202,255
 
 Coordinate: 
 16,28
 Color: 
-102,102,102,255
+224,230,202,255
 
 Coordinate: 
 16,29
@@ -2739,52 +2739,52 @@ Color:
 Coordinate: 
 17,2
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 17,3
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 17,4
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 17,5
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 17,6
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 17,7
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 17,8
 Color: 
-163,221,211,255
+0,0,0,0
 
 Coordinate: 
 17,9
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 17,10
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 17,11
 Color: 
-241,187,149,255
+0,0,0,0
 
 Coordinate: 
 17,12
@@ -2799,27 +2799,27 @@ Color:
 Coordinate: 
 17,14
 Color: 
-255,231,193,255
+0,0,0,0
 
 Coordinate: 
 17,15
 Color: 
-255,231,193,255
+0,0,0,0
 
 Coordinate: 
 17,16
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 17,17
 Color: 
-163,221,211,255
+0,0,0,0
 
 Coordinate: 
 17,18
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 17,19
@@ -2829,17 +2829,17 @@ Color:
 Coordinate: 
 17,20
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 17,21
 Color: 
-255,231,193,255
+0,0,0,0
 
 Coordinate: 
 17,22
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 17,23
@@ -2849,17 +2849,17 @@ Color:
 Coordinate: 
 17,24
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 17,25
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 17,26
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 17,27
@@ -2869,17 +2869,17 @@ Color:
 Coordinate: 
 17,28
 Color: 
-102,102,102,255
+0,0,0,255
 
 Coordinate: 
 17,29
 Color: 
-153,153,153,255
+0,0,0,255
 
 Coordinate: 
 17,30
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 17,31
@@ -2924,62 +2924,62 @@ Color:
 Coordinate: 
 18,7
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 18,8
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 18,9
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 18,10
 Color: 
-241,187,149,255
+0,0,0,0
 
 Coordinate: 
 18,11
 Color: 
-255,231,193,255
+0,0,0,0
 
 Coordinate: 
 18,12
 Color: 
-255,231,193,255
+0,0,0,0
 
 Coordinate: 
 18,13
 Color: 
-255,231,193,255
+0,0,0,255
 
 Coordinate: 
 18,14
 Color: 
-255,231,193,255
+0,0,0,255
 
 Coordinate: 
 18,15
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 18,16
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 18,17
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 18,18
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 18,19
@@ -2994,12 +2994,12 @@ Color:
 Coordinate: 
 18,21
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 18,22
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 18,23
@@ -3029,17 +3029,17 @@ Color:
 Coordinate: 
 18,28
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 18,29
 Color: 
-102,102,102,255
+0,0,0,0
 
 Coordinate: 
 18,30
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 18,31
@@ -3094,27 +3094,27 @@ Color:
 Coordinate: 
 19,9
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 19,10
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 19,11
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 19,12
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 19,13
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 19,14
@@ -3194,7 +3194,7 @@ Color:
 Coordinate: 
 19,29
 Color: 
-0,0,0,255
+0,0,0,0
 
 Coordinate: 
 19,30
@@ -3279,22 +3279,22 @@ Color:
 Coordinate: 
 20,14
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 20,15
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 20,16
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 20,17
 Color: 
-0,0,0,0
+0,0,0,255
 
 Coordinate: 
 20,18

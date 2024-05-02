@@ -99,7 +99,6 @@ public class LvlCreatorFrame extends JFrame {
             ElementPanel panelElementoTemp = new ElementPanel(imgElemento, key, canvas);
             texturesPanel.add(panelElementoTemp);
         }
-
     }
 
 

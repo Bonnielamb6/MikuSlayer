@@ -1,12 +1,15 @@
 package objects;
 
 import graphics.Animation;
+import graphics.Camera;
 import graphics.GraphicsLibrary;
 import graphics.Textures;
+import main.Game;
 import org.w3c.dom.Text;
 import tools.Handler;
 
 import java.awt.*;
+import java.util.LinkedList;
 
 public class Player extends GameObject {
     private Animation walkingAnimation;
@@ -15,6 +18,8 @@ public class Player extends GameObject {
     private boolean walkingRight;
     private boolean walkingLeft;
     private boolean jumping;
+    GraphicsLibrary graphics;
+    private LinkedList<Bullet> bullets = new LinkedList<>();
 
     private Handler handler;
 
@@ -37,12 +42,16 @@ public class Player extends GameObject {
 
     @Override
     public void render(GraphicsLibrary g) {
+        graphics = g;
         if (getVelX() > 0) {
             walkingAnimation.drawSprite(g, (int) getPosX(), (int) getPosY());
         } else if (getVelX() < 0) {
             walkingAnimation.drawReversedSprite(g, (int) getPosX(), (int) getPosY());
         } else {
             g.drawImage(Textures.getMikuTextures("miku"), (int) getPosX(), (int) getPosY());
+        }
+        for (Bullet temp : bullets) {
+            temp.render(graphics);
         }
         showBounds(g);
     }
@@ -65,6 +74,15 @@ public class Player extends GameObject {
         }
         setPosX(getVelX() + getPosX());
         setPosY(getVelY() + getPosY());
+
+        for (Bullet temp : bullets) {
+            temp.tick();
+            if (temp.getPosX() < 0 || temp.getPosX() > getPosX()+Game.getMAX_RENDER()) {
+                System.out.println("Bala fuera" + temp.getPosX() + "," + temp.getPosY() + "\n" + getPosX() + "," + getPosY());
+                bullets.remove(temp);
+            }
+        }
+
     }
 
     public void colisions() {
@@ -98,6 +116,12 @@ public class Player extends GameObject {
         if (!(getVelY() >= 0)) {
             jumping = true;
         }
+    }
+
+    public void shoot() {
+        Bullet tempBullet = new Bullet((int) (getPosX() + getWidth()), (int) (getPosY() + getHeight() / 2), 8, 8, 0, walkingRight, "bullet");
+        bullets.add(tempBullet);
+
     }
 
     @Override
