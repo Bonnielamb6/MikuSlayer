@@ -20,7 +20,7 @@ public class Player extends GameObject {
     private boolean jumping;
     GraphicsLibrary graphics;
     private LinkedList<Bullet> bullets = new LinkedList<>();
-
+    private LinkedList<Bullet> bulletsToDelete = new LinkedList<>();
     private Handler handler;
 
     public Player(float x, float y, Handler handler) {
@@ -38,6 +38,9 @@ public class Player extends GameObject {
         gravity();
         colisions();
         walkingAnimation.animate();
+//        for(Bullet temp:bulletsToDelete){
+//            bullets.remove(temp);
+//        }
     }
 
     @Override
@@ -78,8 +81,8 @@ public class Player extends GameObject {
         for (Bullet temp : bullets) {
             temp.tick();
             if (temp.getPosX() < 0 || temp.getPosX() > getPosX()+Game.getMAX_RENDER()) {
-                System.out.println("Bala fuera" + temp.getPosX() + "," + temp.getPosY() + "\n" + getPosX() + "," + getPosY());
-                bullets.remove(temp);
+
+                bulletsToDelete.add(temp);
             }
         }
 

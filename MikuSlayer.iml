@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/jinput-2.0.10.jar!/" />
+          <root url="jar://$MODULE_DIR$/jxinput-0.9.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
