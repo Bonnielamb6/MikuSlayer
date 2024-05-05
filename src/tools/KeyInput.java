@@ -18,7 +18,7 @@ public class KeyInput extends KeyAdapter {
     @Override
     public void keyPressed(KeyEvent e) {
         int key = e.getKeyCode();
-        System.out.println(key);
+        //System.out.println(key);
         /*KEY CODES
         87=W
         65= A

@@ -1,9 +1,6 @@
 package tools;
 
-import objects.BackgroundObject;
-import objects.GameObject;
-import objects.ObjectID;
-import objects.SolidBlock;
+import objects.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -28,6 +25,9 @@ public class ObjectFactory {
         ));
         prototypes.put("brick", new SolidBlock(
                 0, 0, 16, 16, 0, "brick"
+        ));
+        prototypes.put("enemy", new Enemy(
+                0, 0, "enemy"
         ));
     }
 

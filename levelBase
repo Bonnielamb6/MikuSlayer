@@ -6,6 +6,90 @@ Dimensions:
 
 
 Coordinates: 
+0,0
+Object: 
+brick
+
+
+Coordinates: 
+0,1
+Object: 
+brick
+
+
+Coordinates: 
+0,2
+Object: 
+brick
+
+
+Coordinates: 
+0,3
+Object: 
+brick
+
+
+Coordinates: 
+0,4
+Object: 
+brick
+
+
+Coordinates: 
+0,5
+Object: 
+brick
+
+
+Coordinates: 
+0,6
+Object: 
+brick
+
+
+Coordinates: 
+0,7
+Object: 
+brick
+
+
+Coordinates: 
+0,8
+Object: 
+brick
+
+
+Coordinates: 
+0,9
+Object: 
+brick
+
+
+Coordinates: 
+0,10
+Object: 
+brick
+
+
+Coordinates: 
+0,11
+Object: 
+brick
+
+
+Coordinates: 
+0,12
+Object: 
+brick
+
+
+Coordinates: 
+0,13
+Object: 
+brick
+
+
+Coordinates: 
 0,14
 Object: 
 Floor_Block
@@ -168,6 +252,12 @@ Floor_Block
 
 
 Coordinates: 
+16,4
+Object: 
+brick
+
+
+Coordinates: 
 16,9
 Object: 
 Floor_Block
@@ -177,6 +267,12 @@ Coordinates:
 16,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+17,4
+Object: 
+brick
 
 
 Coordinates: 
@@ -192,6 +288,12 @@ Floor_Block
 
 
 Coordinates: 
+18,4
+Object: 
+brick
+
+
+Coordinates: 
 18,9
 Object: 
 Floor_Block
@@ -201,6 +303,12 @@ Coordinates:
 18,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+19,4
+Object: 
+brick
 
 
 Coordinates: 
@@ -450,6 +558,12 @@ Floor_Block
 
 
 Coordinates: 
+35,12
+Object: 
+enemy
+
+
+Coordinates: 
 35,14
 Object: 
 Floor_Block
@@ -528,6 +642,18 @@ Cloud
 
 
 Coordinates: 
+43,8
+Object: 
+brick
+
+
+Coordinates: 
+43,9
+Object: 
+brick
+
+
+Coordinates: 
 43,13
 Object: 
 Plant
@@ -540,9 +666,21 @@ Floor_Block
 
 
 Coordinates: 
+44,9
+Object: 
+brick
+
+
+Coordinates: 
 44,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+45,9
+Object: 
+brick
 
 
 Coordinates: 
@@ -552,9 +690,27 @@ Floor_Block
 
 
 Coordinates: 
+46,9
+Object: 
+brick
+
+
+Coordinates: 
+46,12
+Object: 
+enemy
+
+
+Coordinates: 
 46,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+47,9
+Object: 
+brick
 
 
 Coordinates: 
@@ -636,9 +792,27 @@ Floor_Block
 
 
 Coordinates: 
+56,8
+Object: 
+brick
+
+
+Coordinates: 
+56,9
+Object: 
+brick
+
+
+Coordinates: 
 56,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+57,7
+Object: 
+brick
 
 
 Coordinates: 
@@ -648,9 +822,21 @@ Floor_Block
 
 
 Coordinates: 
+58,7
+Object: 
+brick
+
+
+Coordinates: 
 58,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+59,7
+Object: 
+brick
 
 
 Coordinates: 
@@ -666,6 +852,12 @@ Cloud
 
 
 Coordinates: 
+60,7
+Object: 
+brick
+
+
+Coordinates: 
 60,12
 Object: 
 Tree
@@ -675,6 +867,18 @@ Coordinates:
 60,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+61,8
+Object: 
+brick
+
+
+Coordinates: 
+61,9
+Object: 
+brick
 
 
 Coordinates: 
@@ -726,6 +930,12 @@ Cloud
 
 
 Coordinates: 
+66,12
+Object: 
+enemy
+
+
+Coordinates: 
 66,14
 Object: 
 Floor_Block
@@ -774,9 +984,39 @@ Floor_Block
 
 
 Coordinates: 
+73,4
+Object: 
+brick
+
+
+Coordinates: 
+73,5
+Object: 
+brick
+
+
+Coordinates: 
+73,12
+Object: 
+enemy
+
+
+Coordinates: 
 73,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+74,4
+Object: 
+brick
+
+
+Coordinates: 
+74,5
+Object: 
+brick
 
 
 Coordinates: 
@@ -789,6 +1029,18 @@ Coordinates:
 74,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+75,4
+Object: 
+brick
+
+
+Coordinates: 
+75,5
+Object: 
+brick
 
 
 Coordinates: 
@@ -834,9 +1086,21 @@ Cloud
 
 
 Coordinates: 
+80,9
+Object: 
+brick
+
+
+Coordinates: 
 80,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+81,9
+Object: 
+brick
 
 
 Coordinates: 
@@ -852,6 +1116,12 @@ Cloud
 
 
 Coordinates: 
+82,9
+Object: 
+brick
+
+
+Coordinates: 
 82,12
 Object: 
 Tree
@@ -864,9 +1134,21 @@ Floor_Block
 
 
 Coordinates: 
+83,9
+Object: 
+brick
+
+
+Coordinates: 
 83,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+84,9
+Object: 
+brick
 
 
 Coordinates: 
@@ -876,9 +1158,21 @@ Floor_Block
 
 
 Coordinates: 
+85,9
+Object: 
+brick
+
+
+Coordinates: 
 85,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+86,9
+Object: 
+brick
 
 
 Coordinates: 
@@ -930,15 +1224,33 @@ Floor_Block
 
 
 Coordinates: 
+92,12
+Object: 
+enemy
+
+
+Coordinates: 
 92,14
 Object: 
 Floor_Block
 
 
 Coordinates: 
+93,12
+Object: 
+enemy
+
+
+Coordinates: 
 93,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+94,12
+Object: 
+enemy
 
 
 Coordinates: 
@@ -963,6 +1275,30 @@ Coordinates:
 96,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+97,7
+Object: 
+brick
+
+
+Coordinates: 
+97,8
+Object: 
+brick
+
+
+Coordinates: 
+97,9
+Object: 
+brick
+
+
+Coordinates: 
+97,10
+Object: 
+brick
 
 
 Coordinates: 
@@ -1032,9 +1368,27 @@ Floor_Block
 
 
 Coordinates: 
+105,9
+Object: 
+brick
+
+
+Coordinates: 
 105,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+106,8
+Object: 
+brick
+
+
+Coordinates: 
+106,9
+Object: 
+brick
 
 
 Coordinates: 
@@ -1044,9 +1398,21 @@ Floor_Block
 
 
 Coordinates: 
+107,8
+Object: 
+brick
+
+
+Coordinates: 
 107,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+108,8
+Object: 
+brick
 
 
 Coordinates: 
@@ -1083,6 +1449,12 @@ Coordinates:
 112,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+113,12
+Object: 
+enemy
 
 
 Coordinates: 
@@ -1128,9 +1500,45 @@ Cloud
 
 
 Coordinates: 
+118,8
+Object: 
+brick
+
+
+Coordinates: 
+118,9
+Object: 
+brick
+
+
+Coordinates: 
+118,10
+Object: 
+brick
+
+
+Coordinates: 
 118,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+119,8
+Object: 
+brick
+
+
+Coordinates: 
+119,10
+Object: 
+brick
+
+
+Coordinates: 
+119,11
+Object: 
+brick
 
 
 Coordinates: 
@@ -1140,15 +1548,57 @@ Floor_Block
 
 
 Coordinates: 
+120,8
+Object: 
+brick
+
+
+Coordinates: 
+120,11
+Object: 
+brick
+
+
+Coordinates: 
 120,14
 Object: 
 Floor_Block
 
 
 Coordinates: 
+121,8
+Object: 
+brick
+
+
+Coordinates: 
+121,11
+Object: 
+brick
+
+
+Coordinates: 
 121,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+122,8
+Object: 
+brick
+
+
+Coordinates: 
+122,9
+Object: 
+brick
+
+
+Coordinates: 
+122,10
+Object: 
+brick
 
 
 Coordinates: 
@@ -1164,9 +1614,33 @@ Floor_Block
 
 
 Coordinates: 
+124,2
+Object: 
+brick
+
+
+Coordinates: 
+124,3
+Object: 
+brick
+
+
+Coordinates: 
+124,4
+Object: 
+brick
+
+
+Coordinates: 
 124,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+125,4
+Object: 
+brick
 
 
 Coordinates: 
@@ -1179,6 +1653,12 @@ Coordinates:
 126,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+127,12
+Object: 
+enemy
 
 
 Coordinates: 
@@ -1212,9 +1692,21 @@ Floor_Block
 
 
 Coordinates: 
+130,9
+Object: 
+brick
+
+
+Coordinates: 
 130,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+131,9
+Object: 
+brick
 
 
 Coordinates: 
@@ -1224,21 +1716,105 @@ Floor_Block
 
 
 Coordinates: 
+132,0
+Object: 
+brick
+
+
+Coordinates: 
+132,1
+Object: 
+brick
+
+
+Coordinates: 
+132,2
+Object: 
+brick
+
+
+Coordinates: 
+132,3
+Object: 
+brick
+
+
+Coordinates: 
+132,4
+Object: 
+brick
+
+
+Coordinates: 
+132,5
+Object: 
+brick
+
+
+Coordinates: 
+132,6
+Object: 
+brick
+
+
+Coordinates: 
 132,7
 Object: 
-Cloud
+brick
+
+
+Coordinates: 
+132,8
+Object: 
+brick
+
+
+Coordinates: 
+132,9
+Object: 
+brick
+
+
+Coordinates: 
+132,10
+Object: 
+brick
+
+
+Coordinates: 
+132,11
+Object: 
+brick
+
+
+Coordinates: 
+132,12
+Object: 
+brick
 
 
 Coordinates: 
 132,13
 Object: 
-Plant
+brick
 
 
 Coordinates: 
 132,14
 Object: 
 Floor_Block
+
+
+Coordinates: 
+133,0
+Object: 
+brick
+
+
+Coordinates: 
+133,1
+Object: 
+brick
 
 
 Coordinates: 

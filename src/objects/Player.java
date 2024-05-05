@@ -83,6 +83,7 @@ public class Player extends GameObject {
             if (temp.getPosX() < 0 || temp.getPosX() > getPosX()+Game.getMAX_RENDER()) {
 
                 bulletsToDelete.add(temp);
+                temp.setActive(false);
             }
         }
 
@@ -123,6 +124,7 @@ public class Player extends GameObject {
 
     public void shoot() {
         Bullet tempBullet = new Bullet((int) (getPosX() + getWidth()), (int) (getPosY() + getHeight() / 2), 8, 8, 0, walkingRight, "bullet");
+        tempBullet.setHandler(handler);
         bullets.add(tempBullet);
 
     }

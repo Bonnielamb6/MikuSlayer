@@ -4,6 +4,7 @@ import graphics.Camera;
 import graphics.GraphicsLibrary;
 import levelCreator.LvlCreator;
 import levelCreator.ObjectSquare;
+import objects.Enemy;
 import objects.GameObject;
 import objects.Player;
 import tools.Handler;
@@ -13,7 +14,7 @@ import graphics.Background;
 
 import java.awt.*;
 import java.awt.image.BufferStrategy;
-import java.io.IOException;
+import java.util.LinkedList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -39,6 +40,8 @@ public class Game extends Canvas implements Runnable {
     private static final int MAX_RENDER = 500;
     private KeyInput keyInput;
     private Player player;
+    private LinkedList<Enemy> enemies = new LinkedList<>();
+    private LinkedList<Enemy> enemiesToDelete = new LinkedList<>();
     private GraphicsLibrary graphics = new GraphicsLibrary(SCREEN_WIDHT, SCREEN_HEIGHT);
 
     public Game() {
@@ -139,7 +142,7 @@ public class Game extends Canvas implements Runnable {
 
     public void loadLevel(String fileName) {
         ObjectSquare[][] levelMatrix;
-        levelMatrix = LvlCreator.loadLevelMatrix("level");
+        levelMatrix = LvlCreator.loadLevelMatrix("levelBase");
 
         for (ObjectSquare[] objects : levelMatrix) {
             for (ObjectSquare object : objects) {
@@ -147,6 +150,10 @@ public class Game extends Canvas implements Runnable {
                     GameObject obj = ObjectFactory.createObject(object.getObjectName());
                     obj.setPosX(object.getX() * 32);
                     obj.setPosY(object.getY() * 32);
+                    if(object.getObjectName().equals("enemy")){
+                        enemies.add((Enemy)obj);
+                        ((Enemy) obj).setHandler(handler);
+                    }
                     handler.addObject(obj);
                 }
             }
@@ -179,7 +186,16 @@ public class Game extends Canvas implements Runnable {
     public synchronized void playerTick() {
         player.tick();
         camera.tick(player);
-
+        for(Enemy temp:enemies){
+            temp.tick();
+            if (!temp.getAlive()){
+                enemiesToDelete.add(temp);
+            }
+        }
+        for(Enemy temp:enemiesToDelete){
+            enemies.remove(temp);
+        }
+        enemiesToDelete = new LinkedList<>();
     }
 
     public synchronized void render() {
@@ -197,7 +213,9 @@ public class Game extends Canvas implements Runnable {
         background.render(graphics);
         handler.render(graphics);
         player.render(graphics);
-
+        for(Enemy temp: enemies){
+            temp.render(graphics);
+        }
         g.drawImage(graphics.getBuffer(), 0, 0, null);
         g.dispose();
 

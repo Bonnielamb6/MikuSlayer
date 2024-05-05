@@ -30,15 +30,7 @@ public class Background extends GameObject {
 
     @Override
     public void render(GraphicsLibrary g) {
-        g.fillRectangle((int) getPosX(), (int) getPosY() - SCREEN_OFFSET, (int) (getWidth() + getPosX()), (int) getHeight(), new Color(111, 133, 255));
-
-        // Mostrar cuadricula
-//        for (int i = 0; i < getWidth() / 32; i++) {
-//            g.drawLine((int) (getX() + i * 32), (int) getY(), (int) (getX() + i * 32), (int) (getY() + getHeight()), new Color(111, 99, 255));
-//        }
-//        for (int i = 0; i < getHeight() / 32; i++) {
-//            g.drawLine((int) getX(), (int) (getY() + i * 32), (int) (getX() + getWidth()), (int) (getY() + i * 32), new Color(111, 99, 255));
-//        }
+        g.fillRectangle((int) getPosX(), (int) getPosY() - SCREEN_OFFSET, (int) (getWidth() + getPosX()), (int) getHeight(), new Color(45, 43, 99));
     }
 
     @Override
