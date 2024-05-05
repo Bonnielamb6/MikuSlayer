@@ -26,6 +26,9 @@ public class ObjectFactory {
         prototypes.put("Floor_Block", new SolidBlock(
                 0, 0, 16, 16, 0, "Floor_Block"
         ));
+        prototypes.put("brick", new SolidBlock(
+                0, 0, 16, 16, 0, "brick"
+        ));
     }
 
     public static GameObject createObject(String type) {

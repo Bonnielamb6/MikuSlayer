@@ -139,7 +139,7 @@ public class Game extends Canvas implements Runnable {
 
     public void loadLevel(String fileName) {
         ObjectSquare[][] levelMatrix;
-        levelMatrix = LvlCreator.loadLevelMatrix("levelBase");
+        levelMatrix = LvlCreator.loadLevelMatrix("level");
 
         for (ObjectSquare[] objects : levelMatrix) {
             for (ObjectSquare object : objects) {

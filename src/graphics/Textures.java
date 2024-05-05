@@ -36,6 +36,7 @@ public class Textures {
 
     private static void getFloorTextures() {
         texturesMap.put("Floor_Block", matrixReader.drawObject("imgs/blocks/floorBlock"));
+        texturesMap.put("brick", matrixReader.drawObject("imgs/blocks/brick"));
 
     }
 

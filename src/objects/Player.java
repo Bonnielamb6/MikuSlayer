@@ -38,9 +38,9 @@ public class Player extends GameObject {
         gravity();
         colisions();
         walkingAnimation.animate();
-//        for(Bullet temp:bulletsToDelete){
-//            bullets.remove(temp);
-//        }
+        for(Bullet temp:bulletsToDelete){
+            bullets.remove(temp);
+        }
     }
 
     @Override
@@ -108,10 +108,10 @@ public class Player extends GameObject {
             jumping = false;
         }
         if (getBoundsRight().intersects(tempObject.getBounds())) {
-            setPosX(tempObject.getPosX() - getWidth());
+            setPosX(tempObject.getPosX() - getWidth()-18);
         }
         if (getBoundsLeft().intersects(tempObject.getBounds())) {
-            setPosX(tempObject.getPosX() + getWidth());
+            setPosX(tempObject.getPosX() + getWidth()-18);
         }
         if (getBoundsTop().intersects(tempObject.getBounds())) {
             setVelY(1);
@@ -147,7 +147,7 @@ public class Player extends GameObject {
 
     public Rectangle getBoundsRight() {
         return new Rectangle(
-                (int) (getPosX() + getWidth() + 8),
+                (int) (getPosX() + getWidth() + 20),
                 (int) (getPosY() + 20),
                 1,
                 (int) (getHeight()));
@@ -155,7 +155,7 @@ public class Player extends GameObject {
 
     public Rectangle getBoundsLeft() {
         return new Rectangle(
-                (int) (getPosX() + 8),
+                (int) (getPosX() + 4),
                 (int) (getPosY() + 20),
                 1,
                 (int) (getHeight()));
