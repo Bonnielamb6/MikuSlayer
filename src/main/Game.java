@@ -2,6 +2,7 @@ package main;
 
 import graphics.Camera;
 import graphics.GraphicsLibrary;
+import graphics.Textures;
 import levelCreator.LvlCreator;
 import levelCreator.ObjectSquare;
 import objects.Enemy;
@@ -12,6 +13,7 @@ import tools.KeyInput;
 import tools.ObjectFactory;
 import graphics.Background;
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 import java.util.LinkedList;
@@ -173,6 +175,10 @@ public class Game extends Canvas implements Runnable {
 
                 updates = 0;
                 frames = 0;
+                if(player.getHp() == 0){
+                    running=false;
+                    JOptionPane.showMessageDialog(this,"Game over");
+                }
             } catch (InterruptedException ex) {
                 Logger.getLogger(Game.class.getName()).log(Level.SEVERE, null, ex);
             }
@@ -210,9 +216,16 @@ public class Game extends Canvas implements Runnable {
 
         graphics.move(camera.getPosX(), camera.getPosY());
 
+
+
+
         background.render(graphics);
         handler.render(graphics);
         player.render(graphics);
+        for(byte i = 0;i<player.getHp();i++){
+            graphics.drawImage(Textures.getHeartTextures("heart"), (int) (player.getPosX()+(i*16)), (int) (player.getPosY()-20));
+        }
+
         for(Enemy temp: enemies){
             temp.render(graphics);
         }

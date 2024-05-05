@@ -29,6 +29,10 @@ public class ObjectFactory {
         prototypes.put("enemy", new Enemy(
                 0, 0, "enemy"
         ));
+        prototypes.put("heart", new BackgroundObject(
+                0, 0, 8, 8, 0, "heart"
+
+        ));
     }
 
     public static GameObject createObject(String type) {

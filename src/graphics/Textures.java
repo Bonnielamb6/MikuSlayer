@@ -37,7 +37,6 @@ public class Textures {
     private static void getFloorTextures() {
         texturesMap.put("Floor_Block", matrixReader.drawObject("imgs/blocks/floorBlock"));
         texturesMap.put("brick", matrixReader.drawObject("imgs/blocks/brick"));
-
     }
 
     private static void getBackgroundTextures() {
@@ -47,6 +46,7 @@ public class Textures {
         texturesMap.put("Moon", matrixReader.drawObject("imgs/background/moon"));
         texturesMap.put("enemy", matrixReader.drawObject("imgs/enemies/enemy"));
         texturesMap.put("enemyWalking", matrixReader.drawObject("imgs/enemies/enemyWalking"));
+        texturesMap.put("heart",matrixReader.drawObject("imgs/background/heart"));
     }
 
 
@@ -98,5 +98,6 @@ public class Textures {
         return enemyTexturesMap.get(name);
     }
 
+    public static BufferedImage getHeartTextures(String name){return texturesMap.get(name);}
 
 }
