@@ -96,6 +96,8 @@ public class Player extends GameObject {
                 case Floor:
                     solidColision(temp);
                     break;
+                case Enemy:
+                        enemyCollision(temp);
                 default:
                     break;
             }
@@ -119,6 +121,12 @@ public class Player extends GameObject {
         }
         if (!(getVelY() >= 0)) {
             jumping = true;
+        }
+    }
+
+    public void enemyCollision(GameObject tempObject){
+        if(getBoundsTop().intersects(tempObject.getBounds())){
+            gotHit();
         }
     }
 
@@ -169,6 +177,8 @@ public class Player extends GameObject {
     }
 
     public void gotHit() {
+        setPosY(20);
+        setPosX(getPosX()-100);
         hp--;
     }
 

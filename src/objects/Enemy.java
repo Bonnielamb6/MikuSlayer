@@ -82,7 +82,12 @@ public class Enemy extends GameObject {
 
     @Override
     public Rectangle getBounds() {
-        return new Rectangle((int) (getPosX()-getWidth()), (int) getPosY(), (int)getWidth(), (int)getHeight());
+        if(alive){
+            return new Rectangle((int) (getPosX()-getWidth()), (int) getPosY(), (int)getWidth(), (int)getHeight());
+        }else{
+            return new Rectangle(1000,1000,0,0);
+        }
+
     }
 
     public void showBounds(GraphicsLibrary g){
